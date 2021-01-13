@@ -1,5 +1,5 @@
 # farmersonly-email-spammer
-Registers accounts on farmersonly.com, and sends emails
+Registers accounts on farmersonly.com, and spams emails
 
 
 # DISCLAIMER
