@@ -4,6 +4,7 @@ import os
 import ctypes
 
 email_username = '' # the part of the email before '@gmail.com' or '@hotmail.com'
+zipc = '' # zipcode
 count = 1
 os.system('mode con: cols=75 lines=20')
 ctypes.windll.kernel32.SetConsoleTitleW("FarmersOnly Email Spammer")
@@ -13,10 +14,8 @@ ctypes.windll.kernel32.SetConsoleTitleW("FarmersOnly Email Spammer")
 def get_num():
 	global num
 	global age
-	global zipc
 	num = '+' + str(random.randint(1000000000000,99999999999999999))
 	age = str(random.randint(21,50)) # age of "person making account"
-	zipc = '' # zipcode
 def doit():
 	global count
 	get_num()
