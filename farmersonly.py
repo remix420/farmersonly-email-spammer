@@ -22,7 +22,7 @@ def doit():
 	payload = {
 		'registration[minAge]': '18',
 		'registration[maxAge]': '99',
-		'registration[email]': email_username + '{}@gmail.com'.format(num),
+		'registration[email]': email_username + '{}@gmail.com'.format(num), # you change change the email domain here
 		'registration[zipcode]': zipc,
 		'registration[genders]': 'MF',
 		'registration[age]': age,
