@@ -4,4 +4,3 @@ Registers accounts on farmersonly.com, and spams emails
 
 # DISCLAIMER
 Only works with certain email domains
-Gmail and Hotmail are known to work :)
